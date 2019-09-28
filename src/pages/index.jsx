@@ -16,10 +16,7 @@ export default class MYCV extends React.Component {
   // eslint-disable-next-line class-methods-use-this
   removeSVGHack() {
     try {
-      const opacityHack = global.document.querySelector('#opacityHack');
-      if (opacityHack) {
-        opacityHack.innerHTML = 'body { opacity: 1 !important; }';
-      }
+      global.document.body.classList.add('isLoaded');
     } catch (e) {
       console.error('shit', e);
     }
@@ -31,12 +28,6 @@ export default class MYCV extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Sabri Berkay Aydin Online Resume</title>
-          <style
-            id="opacityHack"
-            type="text/css"
-          >
-            {'body { opacity: 0 !important; transition: opacity 0.4s; -webkit-transition: opacity 0.4s; }'}
-          </style>
           <meta name="Description" CONTENT="Sabri Berkay Aydin, Lead Software Developer. Online CV / Resume " />
         </Helmet>
         <ReactCV
