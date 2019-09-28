@@ -17,10 +17,8 @@ export default class MYCV extends React.Component {
   removeSVGHack() {
     try {
       const opacityHack = global.document.querySelector('#opacityHack');
-      console.log('is here', opacityHack);
       if (opacityHack) {
         opacityHack.innerHTML = 'body { opacity: 1 !important; }';
-        global.document.head.removeChild(opacityHack);
       }
     } catch (e) {
       console.error('shit', e);
@@ -37,7 +35,7 @@ export default class MYCV extends React.Component {
             id="opacityHack"
             type="text/css"
           >
-            {'body { opacity: 0 !important; transition: opacity 2s; -webkit-transition: opacity 2s; }'}
+            {'body { opacity: 0 !important; transition: opacity 0.4s; -webkit-transition: opacity 0.4s; }'}
           </style>
           <meta name="Description" CONTENT="Sabri Berkay Aydin, Lead Software Developer. Online CV / Resume " />
         </Helmet>
