@@ -202,9 +202,15 @@ export const CVData = {
       icon: 'comments',
       items: [
         {
-          title: 'NodeConfEU 2017 / Kilkeny, Ireland',
-          authority: 'NodeConf',
-          authorityWebSite: 'https://www.nodeconf.eu/',
+          title: 'O\'Reilly Software Architecture Conference 2019 (SACON) / Berlin, Germany',
+          authority: 'O\'Reilly',
+          authorityMeta: 'Attendee',
+          authorityWebSite: 'https://www.oreilly.com/conferences/software-architecture.html',
+        },
+        {
+          title: 'Principal Developer Training (Certificate) 2019',
+          authority: 'Eduard Sizovs',
+          authorityWebSite: 'https://principal.dev/',
         },
         {
           title: 'FullStackFest 2018 / Barcelona, Spain',
@@ -224,9 +230,9 @@ export const CVData = {
           authorityWebSite: 'https://cclub.metu.edu.tr/',
         },
         {
-          title: 'Principal Developer Training (Certificate)',
-          authority: 'Eduard Sizovs',
-          authorityWebSite: 'https://principal.dev/',
+          title: 'NodeConfEU 2017 / Kilkeny, Ireland',
+          authority: 'NodeConf',
+          authorityWebSite: 'https://www.nodeconf.eu/',
         },
       ],
     },
