@@ -14,23 +14,23 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "gatsby": "^2.15.28",
-    "gatsby-plugin-google-analytics": "^2.1.19",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "react": "^16.9.0",
-    "react-cv": "^1.0.8",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^2.24.53",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "react": "^16.13.1",
+    "react-cv": "^1.1.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "6.1.0",
-    "eslint-config-airbnb": "18.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.18.2"
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.8.1",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1"
   },
   "repository": {
     "type": "git",
