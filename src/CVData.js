@@ -61,7 +61,7 @@ export const CVData = {
       icon: 'archive',
       items: [
         {
-          title: 'Lead Software Developer',
+          title: 'Team Lead / Senior Software Developer',
           company: 'JotForm',
           description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
           companyWebSite: 'http://jotform.com',
