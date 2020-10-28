@@ -103,7 +103,7 @@ export const CVData = {
         // JotForm
         {
           sectionHeader: 'JotForm',
-          description: 'Easiest Form Builder / 5 Million Users',
+          description: 'Easiest Form Builder / 8 Million Users',
           items: [
             {
               title: 'JotForm Mobile Forms',
