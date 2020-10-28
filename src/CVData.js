@@ -1,4 +1,3 @@
-
 import Profile from './profile.jpeg';
 
 export const CVData = {
@@ -41,10 +40,10 @@ export const CVData = {
       icon: 'graduation',
       items: [
         {
-          title: 'Computer Education and Instructional Technologies (BS)',
+          title: 'Computer Education and Instructional Technologies (Not graduated)',
           authority: 'Hacettepe University',
           authorityWebSite: 'https://hacettepe.edu.tr',
-          rightSide: '2013 - Present',
+          rightSide: '2013 - 2019',
         },
         {
           title: 'Management Information Systems (BS)',
@@ -57,22 +56,22 @@ export const CVData = {
     {
       type: 'experiences-list',
       title: 'Experiences',
-      description: 'Optional',
+      description: '',
       icon: 'archive',
       items: [
         {
-          title: 'Team Lead / Senior Software Developer',
+          title: 'Team Lead / Senior Front-end Developer',
           company: 'JotForm',
-          description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
+          description: 'I\'m working as a lead developer at JotForm Source team. In this role I manage a production team, mentor junior developers, create clean and sharable common components and mainly work on the product itself for 8 million users.',
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
           datesBetween: '2017.10 - Present',
           descriptionTags: ['Javascript', 'React', 'Team Management'],
         },
         {
-          title: 'Software Developer',
+          title: 'Front-end Developer',
           company: 'JotForm',
-          description: 'I\'m using ReactJS and working as a front-end developer to develop new features for JotForm.',
+          description: 'used Javascript mostly with reactJS and worked as a front-end developer to develop new features for JotForm.',
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
           datesBetween: '2016.8 - 2017.10',
@@ -98,7 +97,7 @@ export const CVData = {
     {
       type: 'projects-list',
       title: 'Projects',
-      description: 'Projects that I have been worked in.',
+      description: 'You can find featured projects below for more detailed information please contact me.',
       icon: 'tasks',
       groups: [
         // JotForm
@@ -133,64 +132,86 @@ export const CVData = {
           sectionHeader: 'YD Software (YD Yazilim)',
           description: 'Tailor-made Software Development Company',
           items: [
+            // {
+            //   title: 'Mavi Masa',
+            //   description: 'Ankara Metropolitan Municipality - Mavi Masa Project - Mobile Applications (C# / Oracle / Android SDK - Java / iOS SDK/ Web Services)',
+            // },
             {
-              title: 'Mavi Masa',
-              description: 'Ankara Metropolitan Municipality - Mavi Masa Project - Mobile Applications (C# / Oracle / Android SDK - Java / iOS SDK/ Web Services)',
-            },
-            {
-              title: 'TKBS',
+              title: 'Odtu Teknokent Internal Systems (TKBS - YFYI - GGJ - BIGG - ATOM - TeknoJump)',
               projectUrl: 'http:////giris.odtuteknokent.com.tr',
-              description: 'METU Technopolis Information System ( C# / SQL Server / Xamarin / MongoDB / Web Services)',
+              description: 'I have worked on multiple projects for ODTU Teknokent\'s (METU Technopolis) internal workflow. ( C# / ASP.NET MVC / SQL Server / Xamarin / MongoDB / Web Services)',
+            },
+            // {
+            //   title: 'YFYI',
+            //   projectUrl: 'http:////yfyi2.odtuteknokent.com.tr',
+            //   description: 'New Business New Ideas(YFYİ) Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
+            // },
+            // {
+            //   title: 'Global Game Jam',
+            //   projectUrl: 'http:////ggj.odtuteknokent.com.tr',
+            //   description: 'Global Game Jam (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
+            // },
+            // {
+            //   title: 'ATOM in Games',
+            //   projectUrl: 'http:////atom.odtuteknokent.com.tr',
+            //   description: 'ATOM Pre-Incubation Center (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
+            // },
+            // {
+            //   title: 'Sanayi Politikalari Portali',
+            //   projectUrl: 'http:////sanayipolitikalari.sanayi.gov.tr',
+            //   description: 'T.C. Industry Ministry Industrial Policies Portal ( C# / SQL Server / Web Services)',
+            // },
+            // {
+            //   title: 'TeknoJUMP',
+            //   projectUrl: 'http:////teknojump2.odtuteknokent.com.tr',
+            //   description: 'TeknoJUMP Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
+            // },
+            // {
+            //   title: 'TUBITAK BIGG / 1512',
+            //   projectUrl: 'http:////bigg.odtuteknokent.com.tr',
+            //   description: 'TUBITAK Invidual Young Enterprise(BİGG/1512) Program Management System - METU ( C# / SQL Server / Web Services )',
+            // }, {
+            //   title: 'AOSB',
+            //   projectUrl: 'http:////aosb.org.tr',
+            //   description: 'Ankara Chamber of Industry 1st Organized Industrial Zone Web Portal - Mobile Applications (C#, SQL Server, Android SDK - Java / iOS SDK / Web Services)',
+            // },
+            // {
+            //   title: 'AMS App',
+            //   projectUrl: '',
+            //   description: 'Central Bank of the Republic of Turkey (TCMB) Mobile Archive Management System ( Android SDK / Xamarin / Urovo SDK)',
+            // },
+            // {
+            //   title: 'YEE Z-BOOK',
+            //   projectUrl: 'http:////yee.org.tr',
+            //   description: 'Yunus Emre Institute Z-Book Education Platform (C#/ MongoDB/ SQLite, Web Services)',
+            // },
+            // {
+            //   title: 'Evdeki Ögretmen(Teacher at Home)',
+            //   projectUrl: 'http:////evdekiogretmen.bilfen.com',
+            //   description: 'Bilfen Evdeki Ogretmen Online Education System (C# / SQL Server / Web Services)',
+            // }
+          ],
+        },
+        {
+          sectionHeader: 'Side Projects',
+          description: 'A few side projects of mine that I recently worked on',
+          items: [
+            {
+              title: 'Shedled / Appointment organizer tool',
+              projectUrl: 'https://shedled.com',
+              description: 'I started to work on Shedled in 2017 to manage my one-on-one meetings. It is being used for a small group of people beginning of this time. Technology Stack: NodeJS/React/PM2/Bull/Nginx/Mysql'
             },
             {
-              title: 'YFYI',
-              projectUrl: 'http:////yfyi2.odtuteknokent.com.tr',
-              description: 'New Business New Ideas(YFYİ) Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
+              title: 'React-CV / Open Source',
+              projectUrl: 'https://github.com/sbayd/react-cv',
+              description: 'I use open source, I love open source. I wanted to be a part of the community. It allows you to create CV websites just like this!'
             },
             {
-              title: 'Global Game Jam',
-              projectUrl: 'http:////ggj.odtuteknokent.com.tr',
-              description: 'Global Game Jam (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
+              title: 'React-Flippy / Open Source',
+              projectUrl: 'https://github.com/sbayd/react-flippy',
+              description: 'Flipping cards as a React component. It is very old but people still use it :)'
             },
-            {
-              title: 'ATOM in Games',
-              projectUrl: 'http:////atom.odtuteknokent.com.tr',
-              description: 'ATOM Pre-Incubation Center (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
-            },
-            {
-              title: 'Sanayi Politikalari Portali',
-              projectUrl: 'http:////sanayipolitikalari.sanayi.gov.tr',
-              description: 'T.C. Industry Ministry Industrial Policies Portal ( C# / SQL Server / Web Services)',
-            },
-            {
-              title: 'TeknoJUMP',
-              projectUrl: 'http:////teknojump2.odtuteknokent.com.tr',
-              description: 'TeknoJUMP Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
-            },
-            {
-              title: 'TUBITAK BIGG / 1512',
-              projectUrl: 'http:////bigg.odtuteknokent.com.tr',
-              description: 'TUBITAK Invidual Young Enterprise(BİGG/1512) Program Management System - METU ( C# / SQL Server / Web Services )',
-            }, {
-              title: 'AOSB',
-              projectUrl: 'http:////aosb.org.tr',
-              description: 'Ankara Chamber of Industry 1st Organized Industrial Zone Web Portal - Mobile Applications (C#, SQL Server, Android SDK - Java / iOS SDK / Web Services)',
-            },
-            {
-              title: 'AMS App',
-              projectUrl: '',
-              description: 'Central Bank of the Republic of Turkey (TCMB) Mobile Archive Management System ( Android SDK / Xamarin / Urovo SDK)',
-            },
-            {
-              title: 'YEE Z-BOOK',
-              projectUrl: 'http:////yee.org.tr',
-              description: 'Yunus Emre Institute Z-Book Education Platform (C#/ MongoDB/ SQLite, Web Services)',
-            },
-            {
-              title: 'Evdeki Ögretmen(Teacher at Home)',
-              projectUrl: 'http:////evdekiogretmen.bilfen.com',
-              description: 'Bilfen Evdeki Ogretmen Online Education System (C# / SQL Server / Web Services)',
-            }],
+          ]
         },
       ],
     },

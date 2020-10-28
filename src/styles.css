@@ -3,3 +3,9 @@ body { opacity: 0; transition: opacity 0.4s; -webkit-transition: opacity 0.4s; }
 body.isLoaded {
     opacity: 1 !important;
 }
+
+.bakbakbak:nth-of-type(2) > div > div:nth-of-type(2), 
+.bakbakbak:nth-of-type(2) > div > div:nth-of-type(3)
+{ 
+    margin-top: 40px;
+}
