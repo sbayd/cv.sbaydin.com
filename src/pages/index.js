@@ -12,19 +12,18 @@ export const MyCV = () => {
       const scr = document.createElement('script');
       scr.onload = () => {
         new JF_FeedbackEmbedButton({
-          buttonText: "Contact",
-          buttonFontColor: "#FFFFFF",
-          buttonBackgroundColor: "#00d1b2",
-          buttonSide: "Bottom",
-          buttonAlign: "Right",
-          buttonIcon: "default",
-          formId: 92511313821952
+          buttonText: 'Contact',
+          buttonFontColor: '#FFFFFF',
+          buttonBackgroundColor: '#00d1b2',
+          buttonSide: 'Bottom',
+          buttonAlign: 'Right',
+          buttonIcon: 'default',
+          formId: 92511313821952,
         });
       };
       scr.src = 'https://form.jotform.com/cardforms/feedbackEmbedButton.min.js';
       document.head.appendChild(scr);
-    } catch(e) {
-      console.error('shity', e);
+    } catch (e) {
     }
   }, []);
 
@@ -37,9 +36,9 @@ export const MyCV = () => {
       </Helmet>
       <ReactCV
         {...CVData}
-    />
+      />
     </>
   );
-}
+};
 
 export default MyCV;

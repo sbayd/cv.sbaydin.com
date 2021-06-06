@@ -49,7 +49,7 @@ export const CVData = {
           title: 'Management Information Systems (BS)',
           authority: 'Anadolu University',
           authorityWebSite: 'https://anadolu.edu.tr',
-          rightSide: '2017 - Present',
+          rightSide: '2017 - 2021',
         },
       ],
     },
@@ -103,12 +103,17 @@ export const CVData = {
         // JotForm
         {
           sectionHeader: 'JotForm',
-          description: 'Easiest Form Builder / 8 Million Users',
+          description: 'Easiest Form Builder / 10+ Million Users',
           items: [
+            {
+              title: 'JotForm Approvals / JotForm Workflow',
+              projectUrl: 'https://www.jotform.com/products/approvals/',
+              description: 'A canvas based drag & drop process builder. This is my latest and one of most challenging product. / React / Redux / Redux-Saga and lots of cool pattern & techs.',
+            },
             {
               title: 'JotForm Mobile Forms',
               projectUrl: 'https://www.jotform.com/products/mobile-forms/',
-              description: 'A mobile app which lets you create forms and collect submissions. it has 100.000 downloads, I was the Team Lead and Lead Developer / React Native, Redux and lots of cool tech.',
+              description: 'A mobile app which lets you create forms and collect submissions. it has 1M+ downloads, I was the Team Lead and Lead Developer / React Native, Redux and lots of cool tech.',
             },
             {
               title: 'PDF Editor',
