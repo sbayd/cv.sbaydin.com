@@ -39,11 +39,11 @@ export const CVData = {
       title: 'Education',
       icon: 'graduation',
       items: [
-        {
-          title: 'Computer Education and Instructional Technologies (Not graduated)',
-          authority: 'Hacettepe University',
-          authorityWebSite: 'https://hacettepe.edu.tr',
-          rightSide: '2013 - 2019',
+         {
+          title: 'Entrepreneurship & Innovation (MS)',
+          authority: 'Anadolu University',
+          authorityWebSite: 'https://anadolu.edu.tr',
+          rightSide: '2021 - 2023',
         },
         {
           title: 'Management Information Systems (BS)',
@@ -51,6 +51,13 @@ export const CVData = {
           authorityWebSite: 'https://anadolu.edu.tr',
           rightSide: '2017 - 2021',
         },
+        {
+          title: 'Computer Education and Instructional Technologies (Not graduated)',
+          authority: 'Hacettepe University',
+          authorityWebSite: 'https://hacettepe.edu.tr',
+          rightSide: '2013 - 2019',
+        }
+
       ],
     },
     {
