@@ -209,6 +209,11 @@ export const CVData = {
           description: 'A few side projects of mine that I recently worked on',
           items: [
             {
+              title: 'Soldd - Online Marketplace (Mobile APP)',
+              projectUrl: 'https://play.google.com/store/apps/details?id=com.soldd.app',
+              description: 'Soldd is an online marketplace for Turkish users it is available both on iOS and Android. I used mainly ReactNative/React/GraphQL
+            },
+            {
               title: 'Shedled / Appointment organizer tool',
               projectUrl: 'https://shedled.com',
               description: 'I started to work on Shedled in 2017 to manage my one-on-one meetings. It is being used for a small group of people beginning of this time. Technology Stack: NodeJS/React/PM2/Bull/Nginx/Mysql'
