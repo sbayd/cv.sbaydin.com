@@ -43,7 +43,7 @@ export const CVData = {
           title: 'Entrepreneurship & Innovation (MS)',
           authority: 'Anadolu University',
           authorityWebSite: 'https://anadolu.edu.tr',
-          rightSide: '2021 - 2023',
+          rightSide: '2021 - Present',
         },
         {
           title: 'Management Information Systems (BS)',
@@ -211,7 +211,7 @@ export const CVData = {
             {
               title: 'Soldd - Online Marketplace (Mobile APP)',
               projectUrl: 'https://play.google.com/store/apps/details?id=com.soldd.app',
-              description: 'Soldd is an online marketplace for Turkish users it is available both on iOS and Android. I used mainly ReactNative/React/GraphQL
+              description: 'Soldd is an online marketplace for Turkish users it is available both on iOS and Android. I used mainly ReactNative/React/GraphQL'
             },
             {
               title: 'Shedled / Appointment organizer tool',
