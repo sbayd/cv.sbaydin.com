@@ -67,12 +67,21 @@ export const CVData = {
       icon: 'archive',
       items: [
         {
-          title: 'Team Lead / Senior Front-end Developer',
+          title: 'Front-end Architect',
           company: 'JotForm',
-          description: 'I\'m working as a lead developer at JotForm Source team. In this role I manage a production team, mentor junior developers, create clean and sharable common components and mainly work on the product itself for 8 million users.',
+          description: 'I recently promoted to Front-end Architect. I\'m trying to create common solutions for all developers in the company.',
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
-          datesBetween: '2017.10 - Present',
+          datesBetween: '2021.10 - Present',
+          descriptionTags: ['Javascript', 'React', 'Architect'],
+        },
+        {
+          title: 'Team Lead / Senior Front-end Developer',
+          company: 'JotForm',
+          description: 'I was the Team Lead & Senior Front-end Developer at JotForm Source Team. In this role I managed a cross functional production team, mentor junior developers, created clean and sharable common components and mainly worked on the product itself using cutting-edge technologies mainly w(JS/React) for 10+ million users.',
+          companyWebSite: 'http://jotform.com',
+          companyMeta: '',
+          datesBetween: '2017.10 - 2021.10',
           descriptionTags: ['Javascript', 'React', 'Team Management'],
         },
         {
