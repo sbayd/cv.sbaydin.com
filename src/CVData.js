@@ -31,7 +31,7 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'I am a curios man. I\'m coding all kind of things in multiple languages, for multiple platforms since I was 14. In the beginning I was creating game servers for popular games, after that I started with php and created some basic apps for small-sized companies. Then I decided to train myself. I have successfully finished a good many projects you can see the project details below. I am the Team Leader and Lead Front-End developer at JotForm now.',
+      content: 'I am a curious guy, I write code for multiple platforms in many language since I was 14. Currently, I\'m working as Front-end Architect @Jotform and creating common solutions for all developers in React & Javascript.',
       icon: 'usertie',
     },
     {
