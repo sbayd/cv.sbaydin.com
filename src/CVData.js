@@ -50,14 +50,7 @@ export const CVData = {
           authority: 'Anadolu University',
           authorityWebSite: 'https://anadolu.edu.tr',
           rightSide: '2017 - 2021',
-        },
-        {
-          title: 'Computer Education and Instructional Technologies (Not graduated)',
-          authority: 'Hacettepe University',
-          authorityWebSite: 'https://hacettepe.edu.tr',
-          rightSide: '2013 - 2019',
         }
-
       ],
     },
     {
@@ -306,7 +299,7 @@ export const CVData = {
       type: 'tag-list',
       title: 'Skills Proficiency',
       icon: 'rocket',
-      items: ['Javascript', 'React', 'Redux', 'React Native', 'NPM', 'Git', 'Webpack', 'Software Craftmanship', 'SOLID Principles', 'Team Leading', 'Front-end Development', 'Web Development', 'C#', 'SOA Architecture', 'N-Tier Architecture', 'Xamarin', 'LINQ', 'SQL', 'PHP'],
+      items: ['Javascript', 'React', 'Redux', 'React Native', 'NPM', 'PNPM', 'YARN', 'Git', 'Webpack', 'GraphQL', 'C#', 'Entity Framework', 'SQL', 'PHP', 'Software Craftmanship', 'SOLID Principles', 'Team Leading', 'Front-end Development', 'Web Development'],
     },
     {
       type: 'tag-list',
@@ -316,5 +309,3 @@ export const CVData = {
     },
   ],
 };
-
-export const x = 3;
