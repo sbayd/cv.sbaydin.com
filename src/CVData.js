@@ -35,25 +35,6 @@ export const CVData = {
       icon: 'usertie',
     },
     {
-      type: 'common-list',
-      title: 'Education',
-      icon: 'graduation',
-      items: [
-         {
-          title: 'Entrepreneurship & Innovation (MS)',
-          authority: 'Anadolu University',
-          authorityWebSite: 'https://anadolu.edu.tr',
-          rightSide: '2021 - Present',
-        },
-        {
-          title: 'Management Information Systems (BS)',
-          authority: 'Anadolu University',
-          authorityWebSite: 'https://anadolu.edu.tr',
-          rightSide: '2017 - 2021',
-        }
-      ],
-    },
-    {
       type: 'experiences-list',
       title: 'Experiences',
       description: '',
@@ -232,6 +213,25 @@ export const CVData = {
             },
           ]
         },
+      ],
+    },
+    {
+      type: 'common-list',
+      title: 'Education',
+      icon: 'graduation',
+      items: [
+         {
+          title: 'Entrepreneurship & Innovation (MS)',
+          authority: 'Anadolu University',
+          authorityWebSite: 'https://anadolu.edu.tr',
+          rightSide: '2021 - Present',
+        },
+        {
+          title: 'Management Information Systems (BS)',
+          authority: 'Anadolu University',
+          authorityWebSite: 'https://anadolu.edu.tr',
+          rightSide: '2017 - 2021',
+        }
       ],
     },
     {
