@@ -31,7 +31,7 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'I am a curious guy, I write code for multiple platforms in many language since I was 14. Currently, I\'m working as Front-end Architect @Jotform and creating common solutions for all developers in React & Javascript.',
+      content: "I'm an Engineering Director and Frontend Architect at Jotform with a lifelong passion for coding that began at the age of 13.\n\nIn my role, I'm known for a 'Get things done' attitude. I lead technical discussions, create solutions, manage hiring, and mentor teams. I've successfully led web and mobile app development projects, each reaching millions of users. Additionally, I manage a complex monorepo with 400+ packages, emphasizing system efficiency and automation.\n\nBeyond work, I actively engage in side projects like 'Tefez,' an online appointment scheduler, and 'Dream Atlas Mobile' built with React Native. My commitment to innovation drives me to continually explore new technologies and methodologies.\n\nI'm also dedicated to mentorship, offering guidance both in the workplace and through non-profit organizations and paid lessons.",
       icon: 'usertie',
     },
     {
@@ -41,18 +41,27 @@ export const CVData = {
       icon: 'archive',
       items: [
         {
+          title: 'Engineering Director / Frontend Architect',
+          company: 'JotForm',
+          description: "In my role as Engineering Director and Frontend Architect at Jotform, I lead technical discussions, create common solutions, manage hiring processes, and mentor teams. I've successfully led web and mobile app development projects, each reaching millions of users. My responsibilities include managing a complex monorepo with 400+ packages, emphasizing system efficiency and automation.",
+          companyWebSite: 'http://jotform.com',
+          companyMeta: '',
+          datesBetween: '2022.10 - Present',
+          descriptionTags: ['Engineering Management', 'Technical Leadership', 'System Efficiency'],
+        },
+        {
           title: 'Front-end Architect',
           company: 'JotForm',
-          description: 'I recently promoted to Front-end Architect. I\'m trying to create common solutions for all developers in the company.',
+          description: "As a member of the Front-end Architecture team at Jotform, I am committed to enhancing developer efficiency and job satisfaction. My primary responsibilities include creating shared solutions/components for development teams, mentoring junior developers, transitioning our polyrepo stack to a monorepo, and maintaining and updating our development environments.",
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
           datesBetween: '2021.10 - Present',
-          descriptionTags: ['Javascript', 'React', 'Architect'],
+          descriptionTags: ['Javascript', 'React', 'Architect', 'Mentorship'],
         },
         {
           title: 'Team Lead / Senior Front-end Developer',
           company: 'JotForm',
-          description: 'I was the Team Lead & Senior Front-end Developer at JotForm Source Team. In this role I managed a cross functional production team, mentor junior developers, created clean and sharable common components and mainly worked on the product itself using cutting-edge technologies mainly w(JS/React) for 10+ million users.',
+          description: 'In my capacity as the Team Lead & Senior Front-end Developer within JotForm Source Team, I managed a cross-functional production team, mentored junior developers, created clean and shareable common components, and predominantly worked on the product itself, catering to an extensive user base of over 10 million users.',
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
           datesBetween: '2017.10 - 2021.10',
@@ -61,7 +70,7 @@ export const CVData = {
         {
           title: 'Front-end Developer',
           company: 'JotForm',
-          description: 'used Javascript mostly with reactJS and worked as a front-end developer to develop new features for JotForm.',
+          description: 'At JotForm, I utilized Javascript, predominantly with ReactJS, and functioned as a front-end developer, contributing to the development of new features.',
           companyWebSite: 'http://jotform.com',
           companyMeta: '',
           datesBetween: '2016.8 - 2017.10',
@@ -69,17 +78,17 @@ export const CVData = {
         {
           title: 'Full-Stack Developer',
           company: 'YD Software',
-          description: 'I was using ASP.Net MVC Framework with N Tier Architecture to develop management systems, learning management systems & big data projects. And i was developing Android / IOS applications using Xamarin or NDK.',
+          description: 'During my tenure at YD Software, I employed the ASP.Net MVC Framework with N-Tier Architecture to develop management systems, learning management systems, and big data projects. Additionally, I engaged in Android and iOS application development using Xamarin and NDK.',
           companyWebSite: 'http://ydyazilim.com',
-          companyMeta: 'ANKARA METU Technopolis(ODTU Teknokent)',
+          companyMeta: 'ANKARA METU Technopolis (ODTU Teknokent)',
           datesBetween: '2012 - 2016.8',
         },
         {
           title: 'Intern',
           company: 'YD Software',
-          description: 'I was warming up with a Learning Management System including desktop and web apps.',
+          description: 'As an intern, I gained practical experience working on a Learning Management System, encompassing both desktop and web applications.',
           companyWebSite: 'http://ydyazilim.com',
-          companyMeta: 'ANKARA METU Technopolis(ODTU Teknokent)',
+          companyMeta: 'ANKARA METU Technopolis (ODTU Teknokent)',
           datesBetween: '2012.06 - 2012.10',
         },
       ],
@@ -87,10 +96,9 @@ export const CVData = {
     {
       type: 'projects-list',
       title: 'Projects',
-      description: 'You can find featured projects below for more detailed information please contact me.',
+      description: 'Below, you will find a selection of featured projects. For more detailed information, please do not hesitate to contact me.',
       icon: 'tasks',
       groups: [
-        // JotForm
         {
           sectionHeader: 'JotForm',
           description: 'Easiest Form Builder / 10+ Million Users',
@@ -98,120 +106,71 @@ export const CVData = {
             {
               title: 'JotForm Approvals / JotForm Workflow',
               projectUrl: 'https://www.jotform.com/products/approvals/',
-              description: 'A canvas based drag & drop process builder. This is my latest and one of most challenging product. / React / Redux / Redux-Saga and lots of cool pattern & techs.',
+              description: 'A canvas-based drag & drop process builder, this project represents one of my latest and most challenging endeavors. It is constructed using React, Redux, Redux-Saga, and incorporates numerous sophisticated patterns and technologies.',
             },
             {
               title: 'JotForm Mobile Forms',
               projectUrl: 'https://www.jotform.com/products/mobile-forms/',
-              description: 'A mobile app which lets you create forms and collect submissions. it has 1M+ downloads, I was the Team Lead and Lead Developer / React Native, Redux and lots of cool tech.',
+              description: 'A mobile app enabling users to create forms and collect submissions. With over 1 million downloads, I assumed the roles of Team Lead and Lead Developer, utilizing React Native, Redux, and other cutting-edge technologies.',
             },
             {
               title: 'PDF Editor',
               projectUrl: 'https://www.jotform.com/products/pdf-editor/',
-              description: 'A PDF Editor which lets you create customized pdfs or fillable forms. I was Lead Javascript Developer / React, Redux',
+              description: 'A PDF Editor empowering users to create customized PDFs or fillable forms. I served as the Lead Javascript Developer, employing React and Redux.',
             },
             {
               title: 'JotForm Cards',
               projectUrl: 'https://www.jotform.com/cards/',
-              description: 'Next generation form type. 1 Million usage / Javascript Developer / React, SSR, Vanilla JS, Webpack',
+              description: 'Introducing the next-generation form type, JotForm Cards boasts over 1 million users. My role as a Javascript Developer involved working with React, Server-Side Rendering (SSR), Vanilla JS, and Webpack.',
             },
             {
               title: 'Easiest Online Form Builder',
               projectUrl: 'https://www.jotform.com/meet-jotform-4/',
-              description: 'Most powerful WYSWYG form builder in the world. / Javascript Developer / React, Redux, Socket.io',
+              description: 'Renowned as the world\'s most powerful WYSWYG form builder, this project challenged me as a Javascript Developer, utilizing React, Redux, and Socket.io.',
             },
           ],
         },
-        // YD Begins
         {
           sectionHeader: 'YD Software (YD Yazilim)',
           description: 'Tailor-made Software Development Company',
           items: [
-            // {
-            //   title: 'Mavi Masa',
-            //   description: 'Ankara Metropolitan Municipality - Mavi Masa Project - Mobile Applications (C# / Oracle / Android SDK - Java / iOS SDK/ Web Services)',
-            // },
             {
               title: 'Odtu Teknokent Internal Systems (TKBS - YFYI - GGJ - BIGG - ATOM - TeknoJump)',
               projectUrl: 'http:////giris.odtuteknokent.com.tr',
               description: 'I have worked on multiple projects for ODTU Teknokent\'s (METU Technopolis) internal workflow. ( C# / ASP.NET MVC / SQL Server / Xamarin / MongoDB / Web Services)',
             },
-            // {
-            //   title: 'YFYI',
-            //   projectUrl: 'http:////yfyi2.odtuteknokent.com.tr',
-            //   description: 'New Business New Ideas(YFYİ) Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
-            // },
-            // {
-            //   title: 'Global Game Jam',
-            //   projectUrl: 'http:////ggj.odtuteknokent.com.tr',
-            //   description: 'Global Game Jam (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
-            // },
-            // {
-            //   title: 'ATOM in Games',
-            //   projectUrl: 'http:////atom.odtuteknokent.com.tr',
-            //   description: 'ATOM Pre-Incubation Center (METU Technopolis) Management System ( C# / SQL Server / Web Services)',
-            // },
-            // {
-            //   title: 'Sanayi Politikalari Portali',
-            //   projectUrl: 'http:////sanayipolitikalari.sanayi.gov.tr',
-            //   description: 'T.C. Industry Ministry Industrial Policies Portal ( C# / SQL Server / Web Services)',
-            // },
-            // {
-            //   title: 'TeknoJUMP',
-            //   projectUrl: 'http:////teknojump2.odtuteknokent.com.tr',
-            //   description: 'TeknoJUMP Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)',
-            // },
-            // {
-            //   title: 'TUBITAK BIGG / 1512',
-            //   projectUrl: 'http:////bigg.odtuteknokent.com.tr',
-            //   description: 'TUBITAK Invidual Young Enterprise(BİGG/1512) Program Management System - METU ( C# / SQL Server / Web Services )',
-            // }, {
-            //   title: 'AOSB',
-            //   projectUrl: 'http:////aosb.org.tr',
-            //   description: 'Ankara Chamber of Industry 1st Organized Industrial Zone Web Portal - Mobile Applications (C#, SQL Server, Android SDK - Java / iOS SDK / Web Services)',
-            // },
-            // {
-            //   title: 'AMS App',
-            //   projectUrl: '',
-            //   description: 'Central Bank of the Republic of Turkey (TCMB) Mobile Archive Management System ( Android SDK / Xamarin / Urovo SDK)',
-            // },
-            // {
-            //   title: 'YEE Z-BOOK',
-            //   projectUrl: 'http:////yee.org.tr',
-            //   description: 'Yunus Emre Institute Z-Book Education Platform (C#/ MongoDB/ SQLite, Web Services)',
-            // },
-            // {
-            //   title: 'Evdeki Ögretmen(Teacher at Home)',
-            //   projectUrl: 'http:////evdekiogretmen.bilfen.com',
-            //   description: 'Bilfen Evdeki Ogretmen Online Education System (C# / SQL Server / Web Services)',
-            // }
-          ],
+          ]
         },
         {
           sectionHeader: 'Side Projects',
-          description: 'A few side projects of mine that I recently worked on',
+          description: 'Explore some of my recent side projects below.',
           items: [
+            {
+              title: 'Tefez - Online Appointment Scheduler',
+              projectUrl: 'https://tefez.com',
+              description: 'Tefez simplifies the process of scheduling appointments, streamlining and enhancing booking experiences.',
+            },
+            {
+              title: 'Dream Atlas Mobile - Dream Journal App',
+              projectUrl: 'https://play.google.com/store/apps/details?id=com.sbayd.dreamatlas',
+              description: 'Dream Atlas Mobile serves as a dream journal app, designed for Android devices and available on Google Play.',
+            },
             {
               title: 'Soldd - Online Marketplace (Mobile APP)',
               projectUrl: 'https://play.google.com/store/apps/details?id=com.soldd.app',
-              description: 'Soldd is an online marketplace for Turkish users it is available both on iOS and Android. I used mainly ReactNative/React/GraphQL'
+              description: 'Soldd is an online marketplace for Turkish users, available on both iOS and Android. I utilized React Native, React, and GraphQL to bring this project to life.',
             },
             {
-              title: 'Shedled / Appointment organizer tool',
-              projectUrl: 'https://shedled.com',
-              description: 'I started to work on Shedled in 2017 to manage my one-on-one meetings. It is being used for a small group of people beginning of this time. Technology Stack: NodeJS/React/PM2/Bull/Nginx/Mysql'
-            },
-            {
-              title: 'React-CV / Open Source',
+              title: 'React-CV - Open Source',
               projectUrl: 'https://github.com/sbayd/react-cv',
-              description: 'I use open source, I love open source. I wanted to be a part of the community. It allows you to create CV websites just like this!'
+              description: 'As a fervent supporter of open source, I contributed to the community by creating React-CV, a tool that enables the creation of CV websites similar to this one!',
             },
             {
-              title: 'React-Flippy / Open Source',
+              title: 'React-Flippy - Open Source',
               projectUrl: 'https://github.com/sbayd/react-flippy',
-              description: 'Flipping cards as a React component. It is very old but people still use it :)'
+              description: 'React-Flippy, an open-source project, introduces a React component for flipping cards. Despite its age, it remains a popular choice among developers.',
             },
-          ]
+          ],
         },
       ],
     },
@@ -220,7 +179,7 @@ export const CVData = {
       title: 'Education',
       icon: 'graduation',
       items: [
-         {
+        {
           title: 'Entrepreneurship & Innovation (MS)',
           authority: 'Anadolu University',
           authorityWebSite: 'https://anadolu.edu.tr',
@@ -231,7 +190,7 @@ export const CVData = {
           authority: 'Anadolu University',
           authorityWebSite: 'https://anadolu.edu.tr',
           rightSide: '2017 - 2021',
-        }
+        },
       ],
     },
     {
