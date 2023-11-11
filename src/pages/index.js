@@ -25,6 +25,21 @@ export const MyCV = () => {
       document.head.appendChild(scr);
     } catch (e) {
     }
+
+    try {
+      // Inject feedback script
+      const scr = document.createElement('script');
+      scr.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QXDFGHSW36');
+      };
+      scr.src = 'https://www.googletagmanager.com/gtag/js?id=G-QXDFGHSW36';
+      document.head.appendChild(scr);
+    } catch (e) {
+    }
   }, []);
 
   return (
