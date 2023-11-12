@@ -2,5 +2,9 @@
   "extends": ["airbnb"],
   "rules": {
     "react/jsx-props-no-spreading": 0
+  },
+  "globals": {
+    "document": true,
+    "window": true,
   }
 }

@@ -2,26 +2,18 @@
   "name": "gatsby-starter-hello-world",
   "private": true,
   "homepage": "https://cv.sbaydin.com/",
+  "source:": "./src/index.html",
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
-    "develop": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir public"
   },
   "dependencies": {
-    "regenerator-runtime": "0.13.4",
-    "gatsby": "^2.24.91",
-    "gatsby-plugin-google-analytics": "^2.3.19",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "react": "16.13.1",
-    "react-cv": "^1.2.0",
-    "react-dom": "16.13.1",
-    "react-helmet": "^6.1.0"
+    "react": "18.2.0",
+    "react-cv": "1.5.1",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -31,7 +23,9 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.1.2"
+    "parcel": "^2.10.2",
+    "prettier": "^2.1.2",
+    "process": "^0.11.10"
   },
   "repository": {
     "type": "git",
