@@ -5,7 +5,52 @@ body.isLoaded {
 }
 
 @media print {
+    /* Set the page size and margins */
+    @page {
+        size: A4; /* You can adjust the page size as needed (A4 is a common size) */
+        margin: 1cm; /* Adjust margins as needed */
+    }
     .jfFeedbackButton {
         display: none !important;
     }
+    /* Reset some default styles for printing */
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif; /* Choose an appropriate font */
+        font-size: 14px; /* Adjust the font size as needed */
+    }
+    
+    /* Ensure elements don't overflow onto multiple pages */
+    body {
+        overflow: visible !important;
+    }
+    
+    /* Remove unnecessary elements */
+    .header, .sidebar, .footer, .nav-menu {
+        display: none;
+    }
+    
+    /* Style headings for better readability */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 18px; /* Adjust heading font size as needed */
+    }
+    
+    /* Adjust spacing between paragraphs and lines */
+    p {
+        margin: 0.5em 0; /* Adjust margins as needed */
+        line-height: 1.4; /* Adjust line height as needed */
+    }
+    
+    /* Remove background colors and images */
+    * {
+        background-color: transparent !important;
+        background-image: none !important;
+    }
+    
+    /* Set link colors */
+    a {
+        color: #000; /* Choose a suitable link color */
+        text-decoration: underline; /* Underline links for better visibility */
+    }  
 }

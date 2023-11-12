@@ -2,6 +2,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import CVRenderer from './CVRenderer';
+import './styles.css';
 
 // eslint-disable-next-line no-undef
 const container = window.document.getElementById('app');
