@@ -160,7 +160,7 @@ const CVData = {
               description: 'Co-founded Tefez, an AI-powered tool revolutionizing appointment scheduling, exemplifying my ability to merge technology with practical solutions.',
             },
             {
-              title: 'Dream Atlas Mobile - Dream Journal App',
+              title: 'Dream Atlas - Analyze Dreams (Mobile APP)',
               projectUrl: 'https://apps.apple.com/th/app/dream-atlas-analyze-dreams/id6470039596',
               description: 'Developed an AI-based dream analysis app for Android and iOS, showcasing my skill in integrating advanced technology with user-friendly app design.',
             },
