@@ -7,8 +7,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir public"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -23,9 +26,14 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "parcel": "^2.10.2",
     "prettier": "^2.1.2",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "gatsby": "5.12.12",
+    "gatsby-plugin-google-gtag": "5.12.3",
+    "gatsby-plugin-sass": "6.12.3",
+    "gatsby-source-filesystem": "5.12.1",
+    "gatsby-transformer-remark": "6.12.3",
+    "sass": "1.69.5"
   },
   "repository": {
     "type": "git",
