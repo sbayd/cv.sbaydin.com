@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-filename-extension */
 import * as React from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import CVRenderer from '../CVRenderer';
 import '../styles.css';
 
@@ -23,6 +24,7 @@ export const Head = () => (
     <meta property="twitter:site" content="@sbayd" />
     <meta property="twitter:title" content="S. Berkay Aydın: Software Architect & Engineering Director" />
     <meta property="twitter:creator" content="@sbayd" />
+    <SpeedInsights />
   </>
 );
 export default IndexPage;
