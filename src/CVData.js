@@ -3,7 +3,7 @@ import Profile from './profile.jpeg';
 const CVData = {
   personalData: {
     name: 'S.Berkay Aydın',
-    title: 'Engineering Director & Innovator in Tech',
+    title: 'Software Architect & Engineering Director',
     image: Profile,
     contacts: [
       { type: 'email', value: 'sbaydin06@gmail.com' },
@@ -31,7 +31,7 @@ const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: '**Engineering Director and Frontend Architect at Jotform**, my journey in technology began at 13. Known for a decisive **"Get things done"** approach, I have led significant web and mobile app projects, each reaching millions. Experienced in **backend, frontend, desktop, and mobile development**, I\'ve consistently pushed innovation\'s boundaries. Evolving from hands-on developer to visionary leader, I remain deeply engaged in product creation.\n\n&nbsp;\n\nAt Jotform, along with leading technical discussions, creating innovative solutions, overseeing hiring, and mentoring teams, I manage a complex monorepo of **400+ packages**, focusing on system efficiency and scalability.\n\n&nbsp;\n\nBeyond Jotform, I offer **consulting services** and mentorship, and have launched AI powered projects like [**Tefez**](tefez.com) and [**Dream Atlas**](https://apps.apple.com/th/app/dream-atlas-analyze-dreams/id6470039596). My career is a testament to continuous learning and leadership in the fast-paced tech industry.',
+      content: '**Engineering Director and Frontend Architect at Jotform**, my journey in technology began at 13. Known for a decisive **"Get things done"** approach, I have led significant web and mobile app projects, each reaching millions. Experienced in **backend, frontend, desktop, and mobile development**, I\'ve consistently pushed innovation\'s boundaries. Evolving from hands-on developer to visionary leader, I remain deeply engaged in product creation.\n\n&nbsp;\n\nAt Jotform, along with leading technical discussions, creating innovative solutions, overseeing hiring, and mentoring teams, I manage a complex monorepo of **400+ packages**, focusing on system efficiency and scalability.\n\n&nbsp;\n\nBeyond Jotform, I offer **consulting services** and mentorship, and have launched AI powered projects like [**Tefez**](https://tefez.com) and [**Dream Atlas**](https://apps.apple.com/th/app/dream-atlas-analyze-dreams/id6470039596). My career is a testament to continuous learning and leadership in the fast-paced tech industry.',
       icon: 'usertie',
     },
     {
