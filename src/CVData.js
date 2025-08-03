@@ -3,7 +3,7 @@ import Profile from './profile.jpeg';
 const CVData = {
   personalData: {
     name: 'S.Berkay Aydın',
-    title: 'Software Architect & Engineering Director',
+    title: 'VP of AI Product & Technology Consultant',
     image: Profile,
     contacts: [
       { type: 'email', value: 'sbaydin06@gmail.com' },
@@ -31,7 +31,7 @@ const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: '**Engineering Director and Frontend Architect at Jotform**, my journey in technology began at 13. Known for a decisive **"Get things done"** approach, I have led significant web and mobile app projects, each reaching millions. Experienced in **backend, frontend, desktop, and mobile development**, I\'ve consistently pushed innovation\'s boundaries. Evolving from hands-on developer to visionary leader, I remain deeply engaged in product creation.\n\n&nbsp;\n\nAt Jotform, along with leading technical discussions, creating innovative solutions, overseeing hiring, and mentoring teams, I manage a complex monorepo of **400+ packages**, focusing on system efficiency and scalability.\n\n&nbsp;\n\nBeyond Jotform, I offer **consulting services** and mentorship, and have launched AI powered projects like [**Tefez**](https://tefez.com) and [**Dream Atlas**](https://apps.apple.com/th/app/dream-atlas-analyze-dreams/id6470039596). My career is a testament to continuous learning and leadership in the fast-paced tech industry.',
+      content: '**VP of AI Product at Jotform**, my journey in technology began at age 13. Known for a decisive **"Get things done"** approach, I have led impactful web and mobile projects reaching millions. With deep experience across **backend, frontend, desktop, and mobile development**, I bridge technical expertise with product strategy to deliver scalable, user-centric solutions.\nAt Jotform, I drive AI product innovation, working closely with cross-functional teams to define vision, ship high-impact features in adopting AI. I’ve evolved from a hands-on developer into a strategic product leader, yet I remain actively involved in creation and execution.\nBeyond Jotform, I offer **consulting services** to help startups and companies shape their product vision, define roadmaps, and build AI-powered tools. My career is a reflection of continuous learning, bold experimentation, and leading with curiosity in fast-changing environments.',
       icon: 'usertie',
     },
     {
@@ -40,13 +40,19 @@ const CVData = {
       description: '',
       icon: 'archive',
       items: [
-
+        {
+          title: 'VP of AI Product',
+          company: 'Jotform',
+          description: 'Leading the AI product organization at Jotform, I define product vision, guide strategic execution, and oversee the development of AI-powered features across a multi-product ecosystem. I collaborate with data-science and product teams to integrate AI, drive user engagement, and scale impact across millions of users.',
+          companyWebSite: 'http://jotform.com',
+          datesBetween: '2025.01 - Present',
+        },
         {
           title: 'Engineering Director / Frontend Architect',
           company: 'JotForm',
           description: "In my dual role at Jotform, I lead technical discussions, devise innovative solutions, and oversee hiring and team mentorship. I've spearheaded major web and mobile app projects, reaching millions of users, and manage a monorepo with 400+ packages, focusing on system efficiency and automation.",
           companyWebSite: 'http://jotform.com',
-          datesBetween: '2022.10 - Present',
+          datesBetween: '2022.10 - 2024.12',
         },
         {
           title: 'Front-end Architect',
@@ -112,6 +118,11 @@ const CVData = {
           sectionHeader: 'JotForm',
           description: 'Easiest Form Builder / 10+ Million Users',
           items: [
+                  {
+              title: 'Jotform AI Agents',
+              projectUrl: 'https://www.jotform.com/ai/agents/',
+              description: 'Led the development of Jotform AI Agents—a multichannel platform for building AI agents that can talk or chat with users, automate workflows, and deliver real-time support across text and voice interfaces.',
+            },
             {
               title: 'JotForm Approvals / JotForm Workflow',
               projectUrl: 'https://www.jotform.com/products/approvals/',
